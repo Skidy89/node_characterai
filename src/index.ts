@@ -32,3 +32,4 @@ export * from './character/characterEnums';
 export * from './character/recentCharacter';
 export * from './character/reportCharacter';
 export * from './character/searchCharacter';
+export * from './websocket';

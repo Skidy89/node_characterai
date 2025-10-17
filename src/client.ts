@@ -106,7 +106,7 @@ export class CharacterAI {
             throw Error("Failed opening websocket." + error);
         }
     }
-    private closeWebsockets() {
+    public closeWebsockets() {
         this.dmChatWebsocket?.close();
         this.groupChatWebsocket?.close();
     }
